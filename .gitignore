@@ -25,6 +25,18 @@ LoRa_RAK_GUI/logs/*
 !LoRa_RAK_GUI/logs/.gitkeep
 
 # ===========================================================
+# Artefatos de teste / cobertura
+# ===========================================================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+*.cover
+coverage.xml
+
+# ===========================================================
 # IDE / editores
 # ===========================================================
 .vscode/
